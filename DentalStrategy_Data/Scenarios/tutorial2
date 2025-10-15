@@ -1,0 +1,43 @@
+{
+    "scenarioName": "tutorial2",
+    "gameMode": "tutorial",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "terrain": [
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass 2_0"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "sprite": "grass 2_0"
+        },
+        {
+            "posX": 1,
+            "posY": 1,
+            "sprite": "grass 2_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": 1,
+            "posY": 1,
+            "team": "enemy1",
+            "name": "dummy"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "team": "enemy1",
+            "name": "baby"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "team": "player1",
+            "name": "baby"
+        }
+    ]
+}

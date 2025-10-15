@@ -1,0 +1,37 @@
+{
+    "scenarioName": "tutorial3",
+    "gameMode": "tutorial",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "terrain": [
+        {
+            "posX": 0,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": 0,
+            "posY": 0,
+            "team": "enemy1",
+            "name": "dummy"
+        },
+        {
+            "posX": 0,
+            "posY": -2,
+            "team": "player1",
+            "name": "canine"
+        }
+    ]
+}
