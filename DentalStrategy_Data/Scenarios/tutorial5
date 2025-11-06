@@ -3,6 +3,10 @@
     "gameMode": "tutorial",
     "AIlevel": 1,
     "activeTeam": "player1",
+    "extractionLimit": 0,
+    "turnLimit": 0,
+    "unitcount": 0,
+    "unitLimit": 0,
     "terrain": [
         {
             "posX": 0,
