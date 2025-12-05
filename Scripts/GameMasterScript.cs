@@ -64,6 +64,10 @@ public class GameMasterScript : MonoBehaviour
             {
                 PauseGame();
             }
+            else
+            {
+                RefocusGame();
+            }
 
         }
 
