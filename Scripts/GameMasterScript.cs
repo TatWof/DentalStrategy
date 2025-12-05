@@ -74,10 +74,7 @@ public class GameMasterScript : MonoBehaviour
             //     if(CheckWinConditions() > 0) GameEnd();
             // }
 
-            if (activeTeam != Team.PLAYER1 && activeTeam != Team.PLAYER2)
-            {
-                StartCoroutine(ActivateAgent(AIlevel));
-            }
+            
         }
     }
     
@@ -93,6 +90,10 @@ public class GameMasterScript : MonoBehaviour
         if(CheckWinConditions() > 0) GameEnd();
         ++turn;
         ChangeTeam();
+        if (activeTeam != Team.PLAYER1 && activeTeam != Team.PLAYER2)
+        {
+            StartCoroutine(ActivateAgent(AIlevel));
+        }
         // if (CheckWinConditions() > 0) GameEnd();
         //Debug.Log("endturn");
     }
@@ -203,9 +204,10 @@ public class GameMasterScript : MonoBehaviour
     {
         turn = 0;
         extracted = 0;
-        unitcount = 0;
+        unitcount = datamaster.scenario.unitcount;
         boardmaster.LoadScenario(datamaster.scenario);
         gameOver = false;
+        activeTeam = datamaster.StringToTeam(datamaster.scenario.activeTeam);
     }
 
     public void LoadScenario()

@@ -190,7 +190,7 @@ public class UnitScript : MonoBehaviour
 
     private void CreatePawnMarkers()
     {
-        BoardMasterScript.MarkerBools mb = new(true, true, false, true, false, false, ghost);
+        BoardMasterScript.MarkerBools mb = new(true, false, false, true, false, false, ghost);
 
         OrthoMarkerValidate(mb, 1, 0, false);
 

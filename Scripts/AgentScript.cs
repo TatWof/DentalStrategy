@@ -80,7 +80,7 @@ public class AgentScript : MonoBehaviour
             // Debug.Log(chosen.name);
 
             MarkerScript ms = chosen.GetComponent<MarkerScript>();
-            Debug.Log(ms.posX + " " + ms.posY);
+            Debug.Log("Agent executing: " + ms.posX + " " + ms.posY);
             //Debug.Log(ms.reference.name);
             ms.Do();
         }

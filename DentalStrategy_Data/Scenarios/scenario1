@@ -44,11 +44,6 @@
             "sprite": "grass 1_0"
         },
         {
-            "posX": -2,
-            "posY": 2,
-            "sprite": "grass 1_0"
-        },
-        {
             "posX": -1,
             "posY": -1,
             "sprite": "grass 1_0"

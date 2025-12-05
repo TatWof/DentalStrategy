@@ -81,12 +81,13 @@ public class MarkerScript : MonoBehaviour
     public void Do()
     {
         gms = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMasterScript>();
-        StartCoroutine(DoMarker());
+        gms.StartCoroutine(DoMarker());
     }
 
     IEnumerator DoMarker()
     {
         yield return new WaitForEndOfFrame();
+        gms = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMasterScript>();
         switch (markerType)
         {
             case MarkerType.MOVE:
@@ -117,11 +118,9 @@ public class MarkerScript : MonoBehaviour
         }
         origin.GetComponent<UnitScript>().selected = false;
 
-        yield return new WaitForSecondsRealtime(0.1f);
-
-        gms = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMasterScript>();
-        bms.DestroyMarkers();
         gms.EndTurn();
+        yield return new WaitForSecondsRealtime(0.1f);
+        bms.DestroyMarkers();
     }
 
     public void OnDestroy()
