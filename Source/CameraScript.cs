@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class CameraScript : MonoBehaviour
@@ -38,6 +37,11 @@ public class CameraScript : MonoBehaviour
             {
                 movey = -cameraSpeed;
             }
+            if (Input.GetKey(KeyCode.Space))
+            {
+                transform.position = Vector2.zero;
+            }
+
             transform.position = new Vector3(transform.position.x + movex, transform.position.y + movey, -10);
         }
     }

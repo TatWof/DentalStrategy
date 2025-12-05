@@ -80,6 +80,7 @@ public class MarkerScript : MonoBehaviour
     
     public void Do()
     {
+        gms = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMasterScript>();
         StartCoroutine(DoMarker());
     }
 
@@ -116,7 +117,7 @@ public class MarkerScript : MonoBehaviour
         }
         origin.GetComponent<UnitScript>().selected = false;
 
-        yield return new WaitForSecondsRealtime(0.4f);
+        yield return new WaitForSecondsRealtime(0.1f);
 
         gms = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMasterScript>();
         bms.DestroyMarkers();

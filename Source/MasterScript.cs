@@ -101,6 +101,13 @@ public class MasterScript : MonoBehaviour
             case "tutorial5": if (datamaster.progress.tutorials < 5) datamaster.progress.tutorials = 5; break;
             case "tutorial6": if (datamaster.progress.tutorials < 6) datamaster.progress.tutorials = 6; break;
             case "tutorial7": if (datamaster.progress.tutorials < 7) datamaster.progress.tutorials = 7; break;
+            
+            case "scenario1": if (datamaster.progress.scenarios < 1) datamaster.progress.scenarios = 1; break;
+            case "scenario2": if (datamaster.progress.scenarios < 2) datamaster.progress.scenarios = 2; break;
+            case "scenario3": if (datamaster.progress.scenarios < 3) datamaster.progress.scenarios = 3; break;
+            case "scenario4": if (datamaster.progress.scenarios < 4) datamaster.progress.scenarios = 4; break;
+            case "scenario5": if (datamaster.progress.scenarios < 5) datamaster.progress.scenarios = 5; break;
+            case "scenario6": if (datamaster.progress.scenarios < 6) datamaster.progress.scenarios = 6; break;
             default: break;
         }
         datamaster.NewProgress(datamaster.progress);
@@ -121,6 +128,13 @@ public class MasterScript : MonoBehaviour
             case "tutorial5": scenarioToLoad = "tutorial6"; break;
             case "tutorial6": scenarioToLoad = "tutorial7"; break;
             case "tutorial7": end = true; break;
+
+            case "scenario1": scenarioToLoad = "scenario2"; break;
+            case "scenario2": scenarioToLoad = "scenario3"; break;
+            case "scenario3": scenarioToLoad = "scenario4"; break;
+            case "scenario4": scenarioToLoad = "scenario5"; break;
+            case "scenario5": scenarioToLoad = "scenario6"; break;
+            case "scenario6": end = true; break;
             default: break;
         }
 

@@ -20,6 +20,8 @@ public class DataMasterScript : MonoBehaviour
         GrabSettings();
         GrabProgression();
         ApplySettings();
+        
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

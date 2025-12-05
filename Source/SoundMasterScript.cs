@@ -9,6 +9,7 @@ public class SoundMasterScript : MonoBehaviour
 
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         music.Play();
     }
 

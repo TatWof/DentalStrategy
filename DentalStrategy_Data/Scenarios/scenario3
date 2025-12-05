@@ -1,0 +1,98 @@
+{
+    "scenarioName": "scenario3",
+    "gameMode": "puzzle",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "extractionLimit": 0,
+    "turnLimit": 0,
+    "unitcount": 0,
+    "unitLimit": 0,
+    "terrain": [
+        {
+            "posX": -1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -2,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": -1,
+            "posY": 0,
+            "team": "player1",
+            "name": "premolar"
+        },
+        {
+            "posX": 1,
+            "posY": 0,
+            "team": "enemy1",
+            "name": "pawn"
+        },
+        {
+            "posX": 1,
+            "posY": 1,
+            "team": "enemy1",
+            "name": "incis"
+        },
+        {
+            "posX": 1,
+            "posY": -2,
+            "team": "enemy1",
+            "name": "molar"
+        }
+    ]
+}

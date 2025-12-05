@@ -1,0 +1,120 @@
+{
+    "scenarioName": "scenario2",
+    "gameMode": "puzzle",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "extractionLimit": 0,
+    "turnLimit": 0,
+    "unitcount": 2,
+    "unitLimit": 2,
+    "terrain": [
+        {
+            "posX": -3,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": -3,
+            "posY": 0,
+            "team": "player1",
+            "name": "incis"
+        },
+        {
+            "posX": 2,
+            "posY": 0,
+            "team": "enemy1",
+            "name": "incis"
+        },
+        {
+            "posX": 2,
+            "posY": -1,
+            "team": "enemy1",
+            "name": "incis"
+        },
+        {
+            "posX": -3,
+            "posY": -1,
+            "team": "player1",
+            "name": "incis"
+        },
+        {
+            "posX": 2,
+            "posY": -2,
+            "team": "enemy1",
+            "name": "incis"
+        },
+        {
+            "posX": 2,
+            "posY": 1,
+            "team": "enemy1",
+            "name": "incis"
+        }
+    ]
+}

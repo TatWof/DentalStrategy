@@ -1,0 +1,169 @@
+{
+    "scenarioName": "scenario1",
+    "gameMode": "puzzle",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "extractionLimit": 0,
+    "turnLimit": 0,
+    "unitcount": 2,
+    "unitLimit": 1,
+    "terrain": [
+        {
+            "posX": -3,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": -2,
+            "posY": -1,
+            "team": "player1",
+            "name": "incis"
+        },
+        {
+            "posX": 2,
+            "posY": 2,
+            "team": "enemy1",
+            "name": "baby"
+        },
+        {
+            "posX": 1,
+            "posY": 2,
+            "team": "enemy1",
+            "name": "baby"
+        },
+        {
+            "posX": 0,
+            "posY": 2,
+            "team": "enemy1",
+            "name": "baby"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "team": "player1",
+            "name": "incis"
+        }
+    ]
+}

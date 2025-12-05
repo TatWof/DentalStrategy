@@ -69,7 +69,10 @@ public class GameMasterScript : MonoBehaviour
 
         if (gameActive)
         {
-            if (CheckWinConditions() > 0) GameEnd();
+            // if(activeTeam == Team.ENEMY1)
+            // {
+            //     if(CheckWinConditions() > 0) GameEnd();
+            // }
 
             if (activeTeam != Team.PLAYER1 && activeTeam != Team.PLAYER2)
             {
@@ -83,11 +86,11 @@ public class GameMasterScript : MonoBehaviour
         yield return _waitForSeconds1;
         if (activeTeam != Team.PLAYER1 && activeTeam != Team.PLAYER2)
             agent.Activate(depth);
-
     }
 
     public void EndTurn()
     {
+        if(CheckWinConditions() > 0) GameEnd();
         ++turn;
         ChangeTeam();
         // if (CheckWinConditions() > 0) GameEnd();
@@ -175,6 +178,8 @@ public class GameMasterScript : MonoBehaviour
         turnLimit = savedata.turnLimit;
         extracted = savedata.extracted;
         extractionLimit = savedata.extractionLimit;
+        unitcount = savedata.unitcount;
+        unitLimit = savedata.unitLimit;
         activeTeam = datamaster.StringToTeam(savedata.activeTeam);
 
         boardmaster.LoadSaveData(datamaster.savedata);
@@ -198,6 +203,7 @@ public class GameMasterScript : MonoBehaviour
     {
         turn = 0;
         extracted = 0;
+        unitcount = 0;
         boardmaster.LoadScenario(datamaster.scenario);
         gameOver = false;
     }
@@ -226,7 +232,7 @@ public class GameMasterScript : MonoBehaviour
 
         if (!boardmaster.CheckTeamUnitsExists(Team.PLAYER1)) flags += 1;
         if (!boardmaster.CheckTeamUnitsExists(Team.ENEMY1)) flags += 16;
-        if (extractionLimit > 0 && extracted > extractionLimit) flags += 32;
+        if (extractionLimit > 0 && extracted >= extractionLimit) flags += 32;
         if (turnLimit > 0 && turn > turnLimit) flags += 2;
         if (unitLimit > 0 && unitcount < unitLimit) flags += 4;
 

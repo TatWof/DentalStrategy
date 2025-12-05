@@ -55,11 +55,7 @@ public class AgentScript : MonoBehaviour
         // get all depth 1 markers
         GameObject[] markerlist = GameObject.FindGameObjectsWithTag("move");
 
-        if (unitlist.Count() == 0 || markerlist.Count() == 0)
-        {
-            gamemaster.EndTurn();
-        }
-        else
+        if (unitlist.Count() != 0 && markerlist.Count() != 0)
         {
             int[] markerEvals = new int[markerlist.Length];
             for (int i = 0; i < markerlist.Length; ++i)
@@ -88,10 +84,13 @@ public class AgentScript : MonoBehaviour
             //Debug.Log(ms.reference.name);
             ms.Do();
         }
-        
-        yield return new WaitForSeconds(0.5f);
+        else
+        {
+            gamemaster.EndTurn();
+        }
         activated = false;
-        gamemaster.EndTurn();
+        yield return new WaitForSeconds(4f);
+        // gamemaster.EndTurn();
     }
 
     int EvalMove(GameObject move, int depth)

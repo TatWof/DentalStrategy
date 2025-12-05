@@ -1,0 +1,209 @@
+{
+    "scenarioName": "scenario",
+    "gameMode": "puzzle",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "extractionLimit": 0,
+    "turnLimit": 0,
+    "unitcount": 0,
+    "unitLimit": 0,
+    "terrain": [
+        {
+            "posX": -4,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": -1,
+            "posY": 0,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": -1,
+            "posY": 1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": -1,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -4,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 4,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 1,
+            "posY": 0,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 1,
+            "posY": 1,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 1,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 3,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": 0,
+            "posY": 0,
+            "team": "player1",
+            "name": "bigmolar"
+        },
+        {
+            "posX": -4,
+            "posY": 0,
+            "team": "enemy1",
+            "name": "canine"
+        },
+        {
+            "posX": 0,
+            "posY": -4,
+            "team": "enemy1",
+            "name": "pawn"
+        },
+        {
+            "posX": 0,
+            "posY": 4,
+            "team": "enemy1",
+            "name": "scaredpremolar"
+        },
+        {
+            "posX": 4,
+            "posY": 0,
+            "team": "enemy1",
+            "name": "incis"
+        }
+    ]
+}

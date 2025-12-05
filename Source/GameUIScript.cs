@@ -16,9 +16,11 @@ public class GameUIScript : MonoBehaviour
     void Update()
     {
         textthing.text = "Goals\n";
-        textthing.text += "Eliminate all enemies\n";
+        textthing.text += "Eliminate all enemies";
+        if (gms.turnLimit > 0 && gms.extractionLimit > 0 && gms.unitLimit > 0) textthing.text += "; or";
+        textthing.text += "\n";
         if (gms.turnLimit > 0) textthing.text += "Turns: " + gms.turn + "/" + gms.turnLimit + "\n";
         if (gms.extractionLimit > 0) textthing.text += "Extracted: " + gms.extracted + "/" + gms.extractionLimit + "\n";
-        if (gms.unitLimit > 0) textthing.text += "No Less than " + gms.unitLimit + " Units: " + gms.unitcount + "\n";
+        if (gms.unitLimit > 0) textthing.text += "And No Less than " + gms.unitLimit + " Units: " + gms.unitcount + "\n";
     }
 }

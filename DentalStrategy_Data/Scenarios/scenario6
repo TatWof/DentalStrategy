@@ -1,0 +1,291 @@
+{
+    "scenarioName": "scenario6",
+    "gameMode": "puzzle",
+    "AIlevel": 1,
+    "activeTeam": "player1",
+    "extractionLimit": 4,
+    "turnLimit": 15,
+    "unitcount": 4,
+    "unitLimit": 4,
+    "terrain": [
+        {
+            "posX": -5,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -5,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -5,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -5,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": -5,
+            "sprite": "Square"
+        },
+        {
+            "posX": -4,
+            "posY": -4,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": -3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -4,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": -5,
+            "sprite": "Square"
+        },
+        {
+            "posX": -3,
+            "posY": -4,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": -3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -3,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -2,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": -1,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 0,
+            "sprite": "grass ball_0"
+        },
+        {
+            "posX": 0,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 0,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 1,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 2,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 3,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 3,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 3,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": -2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": -1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": 0,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": 1,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": 2,
+            "sprite": "grass 1_0"
+        },
+        {
+            "posX": 4,
+            "posY": 3,
+            "sprite": "grass 1_0"
+        }
+    ],
+    "units": [
+        {
+            "posX": -4,
+            "posY": 3,
+            "team": "player1",
+            "name": "canine"
+        },
+        {
+            "posX": -5,
+            "posY": 3,
+            "team": "player1",
+            "name": "pawn"
+        },
+        {
+            "posX": -5,
+            "posY": 2,
+            "team": "player1",
+            "name": "molar"
+        },
+        {
+            "posX": 4,
+            "posY": -2,
+            "team": "enemy1",
+            "name": "canine"
+        },
+        {
+            "posX": 4,
+            "posY": 3,
+            "team": "enemy1",
+            "name": "canine"
+        },
+        {
+            "posX": -4,
+            "posY": 2,
+            "team": "player1",
+            "name": "premolar"
+        },
+        {
+            "posX": -5,
+            "posY": -1,
+            "team": "enemy1",
+            "name": "canine"
+        }
+    ]
+}
